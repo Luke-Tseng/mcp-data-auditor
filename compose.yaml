@@ -1,0 +1,6 @@
+services:
+  mcpdataauditor:
+    image: mcpdataauditor
+    build:
+      context: .
+      dockerfile: ./Dockerfile
